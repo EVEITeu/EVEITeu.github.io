@@ -1,20 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="app">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body ng-controller="app:Index">
 
     {% include header.html %}
+    
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+    
+        <div class="page-content">
+            {{ content }}
+        </div>
 
     {% include footer.html %}
 
-  </body>
+</body>
+<script>
+    var jumboHeight = $('.jumbotron').outerHeight();
+
+    function parallax() {
+        var scrolled = $(window).scrollTop();
+        $('.bg').css('height', (jumboHeight - scrolled) + 'px');
+    }
+
+    $(window).scroll(function (e) {
+        parallax();
+    });
+</script>
 
 </html>

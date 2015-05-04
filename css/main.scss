@@ -27,7 +27,8 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
+// Bootstrap modifikace
+$navbar-default-bg: #444;
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
@@ -45,8 +46,28 @@ $on-laptop:        800px;
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
+//@import
+//        "base",
+//        "layout",
+//        "syntax-highlighting"
+//;
+// EVEIT modifikace
+@import "theme/sandstone/variables";
+@import "bootstrap";
+@import "theme/sandstone/bootswatch";
+@import "font-awesome";
 @import
-        "base",
-        "layout",
-        "syntax-highlighting"
+        "eveit",
+        "top",
+        "logo",
+        "small-header",
+        "social",
+        "jumbotron",
+        "circle",
+        "page",
+        "bottom"
 ;
+
+.site-header {
+    background-color:   #2A665A;
+}
