@@ -79,19 +79,28 @@ weight: 4
 
 <div class="team row">
     <div class="col-xs-2">
-        <img src="http://placehold.it/150x150" class="Ximg-responsive shadow img-team" alt="">
+        <img src="https://media.licdn.com/media/AAEAAQAAAAAAAAM0AAAAJGJjYjQ5MDAyLTgwMGItNDBiZi04N2U5LWJhNDAxNjYxYTVhYw.jpg" class="Ximg-responsive shadow img-team" alt="">
     </div>
     <div class="col-xs-10">
         <h3>Lukáš MATERNA &mdash; Design</h3>
         <p>web and multimedia student, responsible for design</p>
         <p>
-            <a href="mailto:"></a>
+            <a href="mailto:lukmat1@seznam.cz">lukmat1@seznam.cz</a>
             <br>
-                <i class="fa fa-envelope-square fa-2x text-muted"></i>
-                <i class="fa fa-linkedin-square fa-2x  text-muted"></i>
-                <i class="fa fa-twitter-square fa-2x text-muted"></i>
-                <i class="fa fa-google-plus-square fa-2x text-muted"></i>
-                <i class="fa fa-facebook-square fa-2x text-muted"></i>
+            <a href="mailto:lukmat1@seznam.cz">
+                <i class="fa fa-envelope-square fa-2x"></i>
+            </a>
+            <a href="https://cz.linkedin.com/pub/lukáš-materna/99/28b/691" target="_blank">
+                <i class="fa fa-linkedin-square fa-2x"></i>
+            </a>
+            
+                    <i class="fa fa-twitter-square fa-2x text-muted"></i>
+            <a href="https://plus.google.com/102826605063028962776" target="_blank">
+                    <i class="fa fa-google-plus-square fa-2x text-muted"></i>
+            </a>
+            <a href="https://www.facebook.com/lukan.materna" target="_blank">
+                    <i class="fa fa-facebook-square fa-2x text-muted"></i>
+            </a>
         </p>
     </div>
 </div>
